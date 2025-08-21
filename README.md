@@ -35,25 +35,25 @@ This project demonstrates **full-stack development** with Flask, SQLite, SQLAlch
 - **HTML, CSS, JavaScript** – Core web technologies
 ## Project Structure
 flask_app/
-│── app.py # Main Flask app
-│── models.py # Database models (User, Post, Comment)
-│── templates/ # HTML Templates
-│ ├── base.html
-│ ├── login.html
-│ ├── signup.html
-│ ├── posts.html
-│ ├── create_post.html
-│ ├── edit_post.html
-│── static/ # CSS, JS (Bootstrap, Toastr)
-│── requirements.txt # Dependencies
+- app.py # Main Flask app
+- models.py # Database models (User, Post, Comment)
+- templates/ # HTML Templates
+  - base.html
+  - login.html
+  - signup.html
+  - posts.html
+  - create_post.html
+  - edit_post.html
+- static/ # CSS, JS (Bootstrap, Toastr)
+- requirements.txt # Dependencies
 ## Installation and setup
 ### 1. Create virtual environment and activate
-    - python -m venv venv
-    - source venv/bin/activate   # macOS/Linux
-    - venv\Scripts\activate      # Windows
+     python -m venv venv
+     source venv/bin/activate   # macOS/Linux
+     venv\Scripts\activate      # Windows
 ### 2. Install dependencies
-    - pip install -r requirements.txt
+     pip install -r requirements.txt
 ### 3. Run the app
-    - python app.py
+     python app.py
 
     
