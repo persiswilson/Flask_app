@@ -1,4 +1,5 @@
 # FLASK BLOG APPLICATION
+---
 ## A simple **monolithic Flask web application** with user authentication, posts, comments, and notifications.  
 This project demonstrates **full-stack development** with Flask, SQLite, SQLAlchemy, Jinja2 templates, Bootstrap, and Toastr.
 ---
