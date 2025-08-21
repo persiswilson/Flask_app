@@ -1,1 +1,38 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-footer {
+    background-color: #f1f1f1;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type=text], textarea {
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
