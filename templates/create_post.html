@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}Create Post{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <h2>{{ 'Edit Post' if form.title.data else 'Create Post' }}</h2>
+    <form method="POST">
+      {{ form.hidden_tag() }}
+      <div class="mb-3">
+        {{ form.title.label(class="form-label") }}
+        {{ form.title(class="form-control", placeholder="Enter post title") }}
+      </div>
+      <div class="mb-3">
+        {{ form.content.label(class="form-label") }}
+        {{ form.content(class="form-control", placeholder="Enter post content", rows="5") }}
+      </div>
+      <button type="submit" class="btn btn-success">{{ form.submit.label.text }}</button>
+      <a href="{{ url_for('posts') }}" class="btn btn-secondary">Back</a>
+    </form>
+  </div>
+</div>
+{% endblock %}
+
+
